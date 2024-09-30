@@ -5,10 +5,10 @@ import pyodbc
 
 def fetch_and_display_data():
     # Connect to the database
-    server = '41.32.175.122'
-    database = 'legarage'
-    username = 'ahmed.shehata'
-    password = 'shehata@2022'
+    server = ''
+    database = ''
+    username = ''
+    password = ''
     conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
     cursor = conn.cursor()
 
